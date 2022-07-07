@@ -23,5 +23,35 @@ private:
        void read_rec();
        void search_rec();
        void edit_rec();
-       void delete_rec();
+   
+ void delete_rec();
+ void account_query::read_data()
+  {
+      cout<<"/nEnter Account Number:  ";
+      cin..account-number;
+      count<<"Enter First Name:  ";
+      cin>>firstName;
+      count<<"Enter Last Name: ";
+      cin>>lastName;
+      count<<"Enter Balance:  ";
+      cin>>total-Balance;
+      count<<endl;
+  }
+      void account-query::show-data()
+ {
+      count<<"Account Number:  "<<account-number<<endl;
+      count<,"First Name:  '<<firstName<<endl;
+      count<<"Last Name;  "<<lastName<<endl;
+      count<<Current Balance:Rs.   "<<total-Balance<<endl;
+      count<<"------------------------------"<<endl;
+ }
+      void  account_query::write_rec()
+ {   
+      ofstream outfile;
+      outfile.open("record.bank",  ios::binary| ios::app)
+    read_data()
+      outfile.write(reinterpret_cast<char 
+      
+ 
+       
        
